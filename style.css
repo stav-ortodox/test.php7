@@ -1,0 +1,82 @@
+body,
+html {
+  height: auto;
+}
+
+body {
+  color: #2c3e50;
+  font: 300 1rem 'Ubuntu', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+h3 {
+  margin: 3rem 0 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+pre {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+
+  color: #2c3e50;
+  font-family: 'Ubuntu Mono', monospace;
+
+  background: #ecf0f1;
+  border-radius: 0.25rem;
+}
+
+h3 + pre {
+  margin-bottom: 0;
+}
+
+footer {
+  margin-top: 6rem;
+  color: #fff;
+  background: #34495e;
+  padding: 6rem 0;
+}
+
+.container {
+  padding: 6rem 0;
+}
+
+.columns {
+  min-height: 1px;
+}
+
+.gh-fork {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.gh-buttons {
+  margin: 1rem 0;
+  height: 1.6rem;
+}
+
+.github-button {
+  display: none;
+}
+
