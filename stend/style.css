@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 100px;
+}
+
+#hram {
+    /*width: 300px;*/
+    height: 250px;
+}
+
+#logo {
+    height: 300px;
+}
+
+#icon {
+    /*width: 300px;*/
+    height: 250px;
+}
